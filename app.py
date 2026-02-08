@@ -13,7 +13,16 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 from utils import download_nltk_data, load_pos_data, get_vocab_and_tags
 from train_hmm import train_hmm
 from evaluate import viterbi, train_mft_baseline, mft_predict, evaluate_models
+from PIL import Image
 
+# Favicon
+icon = Image.open("assets/Caleb_logo.png")
+
+st.set_page_config(
+    page_title="Caleb Project",
+    page_icon=icon,
+    layout="wide"
+)
 # Page Configuration
 st.set_page_config(
     page_title="Caleb University - HMM POS Tagger",
