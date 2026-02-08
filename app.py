@@ -16,7 +16,7 @@ from evaluate import viterbi, train_mft_baseline, mft_predict, evaluate_models
 from PIL import Image
 
 # Favicon
-icon = Image.open("assets/Caleb_logo.png")
+icon = Image.open("assets/caleb_logo.png")
 
 st.set_page_config(
     page_title="Caleb Project",
