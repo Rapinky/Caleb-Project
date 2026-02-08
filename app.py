@@ -18,11 +18,6 @@ from PIL import Image
 # Favicon
 icon = Image.open("assets/caleb_logo.png")
 
-st.set_page_config(
-    page_title="Caleb Project",
-    page_icon=icon,
-    layout="wide"
-)
 # Page Configuration
 st.set_page_config(
     page_title="Caleb University - HMM POS Tagger",
